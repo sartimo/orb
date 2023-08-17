@@ -14,7 +14,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'v0.92.2'
+          hugo-version: '0.92.2'
       
       - run: sudo apt install hugo
       - run: git submodule update --init --recursive
