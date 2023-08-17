@@ -10,6 +10,12 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'v0.92.2'
+      
       - run: sudo apt install hugo
       - run: git submodule update --init --recursive
       - run: hugo
