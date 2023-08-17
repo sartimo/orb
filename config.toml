@@ -5,7 +5,7 @@ author = "sartimo"
 copyright = "© 2019 - 2023 timo sarkar"
 googleAnalytics = "G-CNQE23ECH5"
 
-publishDir = "W:\\"
+publishDir = "./build"
 
 # ----- Site settings -----
 theme = "risotto"
