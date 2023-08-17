@@ -47,6 +47,11 @@ logo = "avatars/BRZ (125x125).jpg"
     name = "Heyo"
     url = "https://sartimo.github.io/hi"
 
+    [[menu.main]]
+    identifier = "privacy policy"
+    name = "privacy"
+    url = "/privacy/"
+    
 # -----Sidebar: social links-----
 # Available icon sets:
 # * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
