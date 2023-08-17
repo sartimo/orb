@@ -1,4 +1,4 @@
-baseURL = 'https://sartimo.github.io'
+baseURL = 'https://sartimo.surge.sh'
 languageCode = 'en-us'
 title = "timo sarkar's official web presence"
 author = "sartimo"
@@ -25,7 +25,7 @@ series = "series"
 # -----.Site.Params-----
 [params]
 noindex = false
-source = "https://github.com/sartimo/sartimo.github.io"
+source = "https://github.com/sartimo/sartimo.io"
 
 [params.theme]
 palette = "base16-dark-custom"
