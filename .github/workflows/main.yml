@@ -19,4 +19,11 @@ jobs:
       - run: sudo apt install hugo
       - run: git submodule update --init --recursive
       - run: hugo
+
+      - name: setup nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: latest
+          
+      - run: npm install -g surge
       - run: surge build/ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
