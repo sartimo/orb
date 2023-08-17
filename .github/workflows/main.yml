@@ -11,5 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: sudo apt install hugo
-      - run: hugo build/
+      - run: git submodule update --init --recursive
+      - run: hugo
       - run: surge build/ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
